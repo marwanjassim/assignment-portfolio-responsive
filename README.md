@@ -1,9 +1,10 @@
 # Responsive portfolio
 This is my portfolio page. I rebuilt it using Bootstrap to be responsive.
 
+# Screenshots
 ![About page screenshot](Images/page1.png)
 ![Portfolio page screenshot](Images/page2.png)
-![Contact page screenshot](images/page3.png)
+![Contact page screenshot](Images/page3.png)
 
 # Prerequisites
 No prerequisites 
