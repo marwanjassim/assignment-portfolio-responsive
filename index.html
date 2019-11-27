@@ -12,23 +12,24 @@
   <title>My responsive portfolio</title>
 </head>
 
-<body style="background: url('Images/background.png');">
+<body class="mb-5" style="background: url('Images/background.png');">
   <div class="bg-white mb-4">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light mx-auto">
-        <a class="navbar-brand" href="#">Marwan Jassim</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-expand-lg navbar-light mx-auto p-0">
+        <a class="navbar-brand p-2 bg-info text-white" href="#">Marwan Jassim</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <a class="nav-item nav-link" href="portfolio.html">portfolio</a>
+        <div class="collapse navbar-collapse align-items-end flex-column" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
             <a class="nav-item nav-link" href="contact.html">Contact</a>
             <a class="nav-item nav-link" href="index.html">About</a>
-            
-            </div>
+
+          </div>
         </div>
-        </nav>
+      </nav>
     </div>
   </div>
   <div class="container">
@@ -36,13 +37,15 @@
       <div class="row no-gutters">
         <div class="col-md-12">
           <div class="card-body clearfix">
-            <img src="Images/My image.jpg" class="float-md-left rounded w-sm-100 mr-3" alt="My image">
-            <h1 class="card-title border-bottom">FOCUS</h1>
+            <img src="Images/My image.jpg" class="float-md-left rounded col-12 col-md-3 mr-3" alt="My image">
+            <h1 class="card-title border-bottom text-info">FOCUS</h1>
 
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              content. This content is a little bit longer.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit
               in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
@@ -50,6 +53,10 @@
       </div>
     </div>
   </div>
+
+  <nav class="fixed-bottom text-white bg-info border-info pt-2">
+    <div class="text-center bg-dark w-100 py-1">Copyright</div>
+  </nav>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
